@@ -1,5 +1,18 @@
 {% extends "layout.html" %}
 
 {% block body %}
-    <h1>Hello World!</h1>
+
+    <h2>Convert from 1 <span class="currency">EUR</span> to ...</h2>
+    <form action="{{ url_for('index') }}" method="post">
+
+        <select name="currency">
+            <option value="usd">USD</option>
+            <option value="aud">AUD</option>
+            <option value="cad">CAD</option>
+            <option value="pln">PLN</option>
+            <option value="mxn">MXN</option>
+        </select>
+        <button>Submit</button>
+
+    </form>
 {% endblock %}
