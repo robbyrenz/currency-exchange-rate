@@ -5,7 +5,7 @@
 }
 
 body {
-    background: grey;
+    background: #333333;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -13,4 +13,11 @@ body {
 h1 {
     font-size: 3em;
     font-weight: bold;
+}
+
+.heading {
+    text-align: center;
+    padding: 1em;
+    border-bottom: 5px solid white;
+    background: black;
 }
