@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
