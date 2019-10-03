@@ -35,3 +35,29 @@ h1 {
     font-style: italic;
     text-transform: uppercase;
 }
+
+select, button {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+button {
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: white;
+    color: black;
+    border: 5px solid black;
+}
+
+form {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+}
